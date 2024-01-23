@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0c9ee15e-0471-4ceb-ab23-2a6c6a4f3699">
+    <jcr:content
+        cq:name="men-featured"
+        cq:parentPath="/content/dam/apple/content-fragment/header"
+        jcr:lastModified="{Date}2024-01-22T21:01:47.666-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Men Featured"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-01-22T21:01:47.666-05:00">
+        <data
+            cq:model="/conf/apple/settings/dam/cfm/models/sub-navigation"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                href="https://www.nike.com/ca/w/new-mens-3n82yznik1"
+                href_x0040_LastModified="{Date}2024-01-22T21:01:17.706-05:00"
+                navigationLinks="[/content/dam/apple/content-fragment/header/men-featured-navigation/new-releases,/content/dam/apple/content-fragment/header/featured-navigation/air-max-home,/content/dam/apple/content-fragment/header/men-featured-navigation/tennis-essential]"
+                navigationLinks_x0040_LastModified="{Date}2024-01-22T21:01:47.632-05:00"
+                target="_self"
+                target_x0040_LastModified="{Date}2024-01-22T21:01:17.714-05:00"
+                text="Featured"
+                text_x0040_LastModified="{Date}2024-01-22T21:01:17.706-05:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="7a755b45-122d-4e32-93eb-f4dea8fd69a7"
+                _x0040_string_x0040_model="/conf/apple/settings/dam/cfm/models/sub-navigation"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_href="https://www.nike.com/ca/w/new-mens-3n82yznik1"
+                string_x0040_target="_self"
+                string_x0040_text="Featured"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

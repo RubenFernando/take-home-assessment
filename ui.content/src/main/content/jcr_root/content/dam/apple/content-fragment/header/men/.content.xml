@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="82e3268e-2880-48d6-ae6d-1488c35e9c9b">
+    <jcr:content
+        cq:name="men"
+        cq:parentPath="/content/dam/apple/content-fragment/header"
+        jcr:lastModified="{Date}2024-01-22T21:04:02.288-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Men"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-01-22T21:04:02.288-05:00">
+        <data
+            cq:model="/conf/apple/settings/dam/cfm/models/main-navigation"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                href="https://www.nike.com/ca/men"
+                href_x0040_LastModified="{Date}2024-01-22T21:04:02.262-05:00"
+                navigationLinks="[/content/dam/apple/content-fragment/header/men-navigation/men-featured,/content/dam/apple/content-fragment/header/men-navigation/men-shoes]"
+                navigationLinks_x0040_LastModified="{Date}2024-01-22T21:04:02.262-05:00"
+                target="_self"
+                target_x0040_LastModified="{Date}2024-01-22T21:04:02.262-05:00"
+                text="Men"
+                text_x0040_LastModified="{Date}2024-01-22T21:04:02.262-05:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="45db169e-ada7-4d0a-9bda-e052da3a914b"
+                _x0040_string_x0040_model="/conf/apple/settings/dam/cfm/models/main-navigation"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_href="https://www.nike.com/ca/men"
+                string_x0040_target="_self"
+                string_x0040_text="Men"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

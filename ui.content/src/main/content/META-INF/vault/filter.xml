@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/apple" mode="merge"/>
+    <filter root="/content/apple" mode="merge"/>
+    <filter root="/content/dam/apple" mode="merge">
+        <exclude pattern="/content/dam/apple(/.*)?"/>
+        <include pattern="/content/dam/apple/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/apple/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/apple" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,47 @@
+{
+  headerList {
+    items {
+      _model{
+        _path
+        title
+      }
+      logoUrl
+      logoImage {
+        __typename
+      }
+      logoAltText
+      mainNavigation {
+        _path
+        text
+        href
+        target
+        _model{
+          _path
+          title
+        }
+        navigationLinks {
+          _path
+          _variation
+          text
+          href
+          target
+          _model{
+            _path
+            title
+          }
+          navigationLinks {
+            _path
+            _variation
+            text
+            href
+            target
+            _model{
+              _path
+              title
+            }
+          }
+        }
+      }
+    }
+  }
+}

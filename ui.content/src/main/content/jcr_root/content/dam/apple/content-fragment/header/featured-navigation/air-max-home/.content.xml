@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2f36b63a-24b1-4ec9-806b-6ea4c40b78ec">
+    <jcr:content
+        cq:name="air-max-home"
+        cq:parentPath="/content/dam/apple/content-fragment/header"
+        jcr:lastModified="{Date}2024-01-22T20:26:00.535-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Air Max Home"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-01-22T20:26:00.535-05:00">
+        <data
+            cq:model="/conf/apple/settings/dam/cfm/models/navigation-links"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                href="https://www.nike.com/ca/air-max"
+                href_x0040_LastModified="{Date}2024-01-22T20:26:00.509-05:00"
+                target="_self"
+                target_x0040_LastModified="{Date}2024-01-22T20:26:00.509-05:00"
+                text="Air Max Home"
+                text_x0040_LastModified="{Date}2024-01-22T20:26:00.509-05:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="98d3ac26-2ebc-4b85-81d8-7fb29111a14a"
+                _x0040_string_x0040_model="/conf/apple/settings/dam/cfm/models/navigation-links"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_href="https://www.nike.com/ca/air-max"
+                string_x0040_target="_self"
+                string_x0040_text="Air Max Home"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

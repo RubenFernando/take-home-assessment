@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9b1b73b3-cd26-418e-bcd2-21739021e026">
+    <jcr:content
+        cq:name="global-header"
+        cq:parentPath="/content/dam/apple/content-fragment/header"
+        jcr:lastModified="{Date}2024-01-22T21:04:20.025-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Global Header"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-01-22T21:04:20.025-05:00">
+        <data
+            cq:model="/conf/apple/settings/dam/cfm/models/header"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                logoAltText="Nike Homepage"
+                logoAltText_x0040_LastModified="{Date}2024-01-22T20:51:48.879-05:00"
+                logoImage="/content/dam/apple/images/nike.jpg"
+                logoImage_x0040_LastModified="{Date}2024-01-22T20:51:48.879-05:00"
+                logoUrl="https://www.nike.com/ca/"
+                logoUrl_x0040_LastModified="{Date}2024-01-22T20:51:48.879-05:00"
+                mainNavigation="[/content/dam/apple/content-fragment/header/new-featured,/content/dam/apple/content-fragment/header/men]"
+                mainNavigation_x0040_LastModified="{Date}2024-01-22T21:04:20.001-05:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="1aeb81a2-5cd2-48f4-8631-eae8c4b95062"
+                _x0040_string_x0040_model="/conf/apple/settings/dam/cfm/models/header"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_logoAltText="Nike Homepage"
+                string_x0040_logoUrl="https://www.nike.com/ca/"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

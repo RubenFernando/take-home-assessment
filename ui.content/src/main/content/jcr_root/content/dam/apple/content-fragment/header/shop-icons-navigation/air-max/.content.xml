@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a4792a08-c24a-40f0-b557-6415c920c06c">
+    <jcr:content
+        cq:name="air-max"
+        cq:parentPath="/content/dam/apple/content-fragment/header/shop-icons-navigation"
+        jcr:lastModified="{Date}2024-01-22T20:30:43.456-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Air Max"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-01-22T20:30:43.456-05:00">
+        <data
+            cq:model="/conf/apple/settings/dam/cfm/models/navigation-links"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                href="https://www.nike.com/ca/w/air-max-shoes-a6d8hzy7ok"
+                href_x0040_LastModified="{Date}2024-01-22T20:30:43.439-05:00"
+                target="_self"
+                target_x0040_LastModified="{Date}2024-01-22T20:30:43.440-05:00"
+                text="Air Max"
+                text_x0040_LastModified="{Date}2024-01-22T20:30:43.430-05:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="8a5ecdbf-ecd5-4c7f-a93a-c6ab4c3af1b7"
+                _x0040_string_x0040_model="/conf/apple/settings/dam/cfm/models/navigation-links"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_href="https://www.nike.com/ca/w/air-max-shoes-a6d8hzy7ok"
+                string_x0040_target="_self"
+                string_x0040_text="Air Max"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

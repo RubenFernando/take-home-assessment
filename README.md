@@ -10,6 +10,10 @@ The main parts of the template are:
 * ui.content: contains content fragment model, graphQL query, content fragment and images
 * all: a single content package that embeds all of the compiled modules (bundles and content packages) including any vendor dependencies
 
+## Service Pack and Uber version
+
+    Version - 6.5.19
+
 ## How to build
 
 To build all the modules run in the project root directory the following command with Maven 3:
@@ -28,11 +32,17 @@ Or to deploy only a single content package, run in the sub-module directory (i.e
 
     mvn clean install -PautoInstallPackage
 
-## GraphQL Endpoint for Global Navigation
+## GraphQL query for Global Navigation
 
-To get the json for global navigation, hit the following url:
-    
-    http://localhost:4502/graphql/execute.json/apple/globalNavigation
+    https://github.com/RubenFernando/take-home-assessment/blob/master/ui.content/src/main/content/jcr_root/conf/apple/settings/graphql/persistentQueries/globalNavigation/_jcr_content/_jcr_data.binary
+
+## Content Fragment Model
+
+    https://github.com/RubenFernando/take-home-assessment/tree/master/ui.content/src/main/content/jcr_root/conf/apple/settings/dam/cfm/models
+
+## Content Fragment
+
+    https://github.com/RubenFernando/take-home-assessment/tree/master/ui.content/src/main/content/jcr_root/content/dam/apple/content-fragment
 
 ## Maven settings
 

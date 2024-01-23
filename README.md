@@ -32,6 +32,12 @@ Or to deploy only a single content package, run in the sub-module directory (i.e
 
     mvn clean install -PautoInstallPackage
 
+## Endpoint to get Json
+
+/bin/getGlobalNavigation.json/<content-fragment-path>
+
+Example: /bin/getGlobalNavigation.json/content/dam/apple/content-fragment/header/global-header
+
 ## GraphQL query for Global Navigation
 
     https://github.com/RubenFernando/take-home-assessment/blob/master/ui.content/src/main/content/jcr_root/conf/apple/settings/graphql/persistentQueries/globalNavigation/_jcr_content/_jcr_data.binary
